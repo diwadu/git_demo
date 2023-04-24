@@ -24,6 +24,14 @@ public:
     {
         return "Hi " + this->name + ". You are " + std::to_string(this->age) + ".";
     }
+
+    /**
+     * This method gets age
+     */
+    int getAge()
+    {
+        return this->age;
+    }
 };
 
 int main()
